@@ -4,13 +4,6 @@
 # При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 
 
-# def filter_strings(strings):
-#     new_array = []
-#     for string in strings:
-#         if len(string) <= 3:
-#             new_array.append(string)
-#     return new_array
-
 def filter_strings(strings):
     return list(filter(lambda s: len(s) <= 3, strings))
 
